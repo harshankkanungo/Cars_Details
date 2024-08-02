@@ -3,7 +3,6 @@ import Footer from "../Footer";
 import Link from "next/link";
 import Navbar from "../Navbar";
 
-
 const Home = () => {
   const [store, setStore] = useState([]);
   const [showMore, setShowMore] = useState(null);
@@ -57,6 +56,7 @@ const Home = () => {
 
           .main2 {
             width: 100%;
+            min-height: 72vh;
             background: black;
             display: flex;
             justify-content: center;
